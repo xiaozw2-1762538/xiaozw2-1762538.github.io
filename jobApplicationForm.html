@@ -2,12 +2,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Job Application</title>
+    <title>Job Application</title>
 </head>
 <body>
 
 <h2>Job Application</h2>
-
 <form action="http://gclass.alexburner.com/formtest.php" method="post">
 
 	<fieldset>
@@ -165,8 +164,31 @@
 		<div class="field">
 			<label>Describe a recent project:</label><br>
 			<textarea name="project" rows="6" cols="60"></textarea>
-		</div>
-	</fieldset>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legand>Audio Buttons</legand>
+        <div class="field">
+            <input type="radio" name="answer" value="yes"> Yes<br>
+            <input type="radio" name="answer" value="no"> No<br> 
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legand>Your Current Properties So Far:</legand>
+        <div class="field">
+                <input type="checkbox" name="vehicle" value="Bike">I have a bike<br> <input type="checkbox" name="vehicle" value="Car">I have a car
+                <select name="cars"> <option value="volvo">Volvo</option> <option value="saab">Saab</option> <option value="fiat">Fiat</option> <option value="audi">Audi</option> </select><br>
+                <input type="checkbox" name="house" value="house">I have a house<br>
+        </div>
+    
+       
+                
+        
+
+    </fieldset>
+    
 
 	<input type="submit" value="Submit form">
 
